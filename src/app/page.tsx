@@ -9,10 +9,6 @@ export default function Home() {
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
       </div>
-
-      
-
-     
-    </main>
+ </main>
   );
 }
