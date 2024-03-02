@@ -17,7 +17,7 @@ function NavBar() {
             src={Home}
             className="menu-btn"
             alt="Next.js Logo"
-            width={100}
+            width={50}
             height={50}
             priority
           />
@@ -29,7 +29,7 @@ function NavBar() {
             src={About}
             className="menu-btn"
             alt="Next.js Logo"
-            width={100}
+            width={55}
             height={50}
             priority
           />
@@ -41,7 +41,7 @@ function NavBar() {
             src={Projects}
             className="menu-btn"
             alt="Next.js Logo"
-            width={100}
+            width={80}
             height={50}
             priority
           />
@@ -53,7 +53,7 @@ function NavBar() {
             src={Resume}
             className="menu-btn"
             alt="Next.js Logo"
-            width={100}
+            width={70}
             height={50}
             priority
           />
@@ -65,7 +65,7 @@ function NavBar() {
             src={Blog}
             className="menu-btn"
             alt="Next.js Logo"
-            width={100}
+            width={50}
             height={50}
             priority
           />

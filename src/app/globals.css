@@ -62,3 +62,43 @@ body {
     transform: scale(0.4);
   }
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black; /* Change this to your desired background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual */
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.navbar ul li:last-child {
+  margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.menu-btn {
+  display: block;
+}
+
+/* Adjust image size */
+.menu-btn img {
+  width: 100px;
+  height: 50px;
+}
+
+/* Align menu items to the right */
+.navbar ul {
+  text-align: right;
+}
