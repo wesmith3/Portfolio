@@ -33,18 +33,45 @@ body {
 }
 
 .name {
-  justify-content: center; /* Horizontally center */
+  justify-content: center;
   align-items: center;
   padding-top: 20%;
-  animation: scale-up-ver-center 1s ease-in-out;
+  /* animation: scaleDisappearLoop 12s infinite; */
+  animation: slide-bottom 20s infinite
 }
 
-@keyframes scale-up-ver-center {
+@keyframes slide-bottom {
 			
   0% {
-    transform:scale(.4);
+    transform:translateY(-500px);
+  }
+  50% {
+    transform: translateY(0);
   }
   100% {
-    transform:scale(1);
+    transform:translateY(500px);
   }
 }
+
+/* @keyframes scaleDisappearLoop {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  8.33% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  83.33% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  99.99% { 
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+} */
