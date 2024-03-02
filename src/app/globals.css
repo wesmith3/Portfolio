@@ -32,11 +32,19 @@ body {
   }
 }
 
-.title {
-  font-family: cursive;
-  font-size: 100px;
-}
 .name {
-  font-family: cursive;
-  font-size: 75px;
+  justify-content: center; /* Horizontally center */
+  align-items: center;
+  padding-top: 20%;
+  animation: scale-up-ver-center 1s ease-in-out;
+}
+
+@keyframes scale-up-ver-center {
+			
+  0% {
+    transform:scale(.4);
+  }
+  100% {
+    transform:scale(1);
+  }
 }
