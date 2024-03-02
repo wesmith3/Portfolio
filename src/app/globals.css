@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  overflow: hidden;
 }
 
 @layer utilities {
@@ -37,7 +38,7 @@ body {
   align-items: center;
   padding-top: 20%;
   /* animation: scaleDisappearLoop 12s infinite; */
-  animation: slide-bottom 20s infinite
+  animation: slide-bottom 200s infinite
 }
 
 @keyframes slide-bottom {
@@ -45,11 +46,14 @@ body {
   0% {
     transform:translateY(-500px);
   }
-  50% {
+  10% {
+    transform: translateY(0);
+  }
+  90% {
     transform: translateY(0);
   }
   100% {
-    transform:translateY(500px);
+    transform:translateY(455px);
   }
 }
 
