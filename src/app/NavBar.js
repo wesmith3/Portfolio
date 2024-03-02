@@ -2,8 +2,10 @@ import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
 import Home from '../public/Home.jpeg'
-import Home from '../public/Home.jpeg'
-import Home from '../public/Home.jpeg'
+import About from '../public/About.jpeg'
+import Projects from '../public/Projects.jpeg'
+import Resume from '../public/Resume.jpeg'
+import Blog from '../public/Blog.jpeg'
 
 function NavBar() {
   return (
@@ -34,9 +36,33 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <Link href="/portfolio">
+          <Link href="/projects">
           <Image
-            src={Portfolio}
+            src={Projects}
+            className="menu-btn"
+            alt="Next.js Logo"
+            width={100}
+            height={50}
+            priority
+          />
+          </Link>
+        </li>
+        <li>
+          <Link href="/resume">
+          <Image
+            src={Resume}
+            className="menu-btn"
+            alt="Next.js Logo"
+            width={100}
+            height={50}
+            priority
+          />
+          </Link>
+        </li>
+        <li>
+          <Link href="/blog">
+          <Image
+            src={Blog}
             className="menu-btn"
             alt="Next.js Logo"
             width={100}
