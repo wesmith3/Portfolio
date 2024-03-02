@@ -38,26 +38,9 @@ body {
   align-items: center;
   padding-top: 20%;
   /* animation: scaleDisappearLoop 12s infinite; */
-  animation: slide-bottom 200s infinite
 }
 
-@keyframes slide-bottom {
-			
-  0% {
-    transform:translateY(-500px);
-  }
-  10% {
-    transform: translateY(0);
-  }
-  90% {
-    transform: translateY(0);
-  }
-  100% {
-    transform:translateY(455px);
-  }
-}
-
-/* @keyframes scaleDisappearLoop {
+@keyframes scaleDisappearLoop {
   0% {
     opacity: 0;
     transform: scale(0.4);
@@ -78,4 +61,4 @@ body {
     opacity: 0;
     transform: scale(0.4);
   }
-} */
+}
