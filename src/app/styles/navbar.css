@@ -28,6 +28,10 @@
     color: #ceaa05;
     text-shadow: -1.5px 0px .05px #570000;
   }
+
+  .menu-btn, .navbar a {
+    color: #ceaa05; /* Your desired color */
+}
   
   .navbar ul {
     text-align: right;
