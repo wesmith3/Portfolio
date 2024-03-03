@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'FHA';
+  src: url('../public/fonts/fha-nicholson-french-ncv-font/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,6 +29,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  overflow: hidden;
 }
 
 @layer utilities {
@@ -33,18 +39,74 @@ body {
 }
 
 .name {
-  justify-content: center; /* Horizontally center */
+  justify-content: center;
   align-items: center;
-  padding-top: 20%;
-  animation: scale-up-ver-center 1s ease-in-out;
+  padding-top: 55%;
+  /* animation: scaleDisappearLoop 12s infinite; */
 }
 
-@keyframes scale-up-ver-center {
-			
+/* @keyframes scaleDisappearLoop {
   0% {
-    transform:scale(.4);
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  8.33% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  83.33% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  99.99% { 
+    opacity: 0;
+    transform: scale(1);
   }
   100% {
-    transform:scale(1);
+    opacity: 0;
+    transform: scale(0.4);
   }
+} */
+
+.navbar {
+  position: fixed;
+  top: 2%;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 2.5%;
+}
+
+.menu-btn {
+  display: block;
+  font-family: FHA;
+  color: #ceaa05;
+  text-shadow: -1.5px 0px .05px #570000;
+}
+
+.navbar ul {
+  text-align: right;
+}
+
+.menu-btn:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+  text-shadow: -1.5px 0px .05px #570000;
+  text-decoration: underline overline;
 }
