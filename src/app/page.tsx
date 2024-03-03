@@ -1,5 +1,3 @@
-import Image from "next/image";
-import name from '../public/Name.jpeg'
 import Footer from "./Footer";
 import Name from "./Name";
 
