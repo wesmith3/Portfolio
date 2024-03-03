@@ -1,11 +1,5 @@
 import React from 'react'
 import Link from "next/link";
-import Image from "next/image";
-import Home from '../public/Home.jpeg'
-import About from '../public/About.jpeg'
-import Projects from '../public/Projects.jpeg'
-import Resume from '../public/Resume.jpeg'
-import Blog from '../public/Blog.jpeg'
 
 function NavBar() {
   return (
@@ -13,69 +7,24 @@ function NavBar() {
       <ul>
         <li className='menu-btn'>
           <Link href="/" >
-            {/* <Image
-            src={Home}
-            className="menu-btn"
-            alt="Next.js Logo"
-            width={50}
-            height={50}
-            priority
-          /> */}
           Home
           </Link>
         </li>
         <li className='menu-btn'>
           <Link href="/about">
-          {/* <Image
-            src={About}
-            className="menu-btn"
-            alt="Next.js Logo"
-            width={55}
-            height={50}
-            priority
-          /> */}
           About
           </Link>
         </li>
         <li className='menu-btn'>
           <Link href="/projects">
-          {/* <Image
-            src={Projects}
-            className="menu-btn"
-            alt="Next.js Logo"
-            width={80}
-            height={50}
-            priority
-          /> */}
           Projects
           </Link>
         </li>
         <li className='menu-btn'>
           <Link href="/resume">
-          {/* <Image
-            src={Resume}
-            className="menu-btn"
-            alt="Next.js Logo"
-            width={65}
-            height={50}
-            priority
-          /> */}
           Resume
           </Link>
         </li>
-        {/* <li className='menu-btn'>
-          <Link href="/blog">
-          <Image
-            src={Blog}
-            className="menu-btn"
-            alt="Next.js Logo"
-            width={50}
-            height={50}
-            priority
-          />
-          Blog
-          </Link>
-        </li> */}
       </ul>
     </nav>
   )
