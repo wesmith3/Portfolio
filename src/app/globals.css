@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'FHA';
+  src: url('../public/fonts/fha-nicholson-french-ncv-font/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
+  /* You can specify additional attributes like font-weight and font-style here */
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -36,7 +42,7 @@ body {
 .name {
   justify-content: center;
   align-items: center;
-  padding-top: 20%;
+  padding-top: 25%;
   /* animation: scaleDisappearLoop 12s infinite; */
 }
 
@@ -65,7 +71,7 @@ body {
 
 .navbar {
   position: fixed;
-  top: 0;
+  top: 2%;
   left: 0;
   width: 100%;
   background-color: black; /* Change this to your desired background color */
@@ -81,7 +87,7 @@ body {
 
 .navbar ul li {
   display: inline-block;
-  margin-right: 20px; /* Adjust spacing between menu items */
+  margin-right: 20px;
 }
 
 .navbar ul li:last-child {
@@ -90,15 +96,26 @@ body {
 
 .menu-btn {
   display: block;
+  font-family: FHA;
+  color: #ceaa05;
+  text-shadow: -1.5px 0px .05px #570000;
 }
 
-/* Adjust image size */
+/* Adjust image size
 .menu-btn img {
   width: 100px;
   height: 50px;
-}
+} */
 
 /* Align menu items to the right */
 .navbar ul {
   text-align: right;
+}
+
+.menu-btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  color: white;
+  text-shadow: -1.5px 0px .05px grey;
+  text-decoration: underline overline;
 }

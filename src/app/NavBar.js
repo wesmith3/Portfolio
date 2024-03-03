@@ -11,16 +11,17 @@ function NavBar() {
   return (
     <nav className='navbar'>
       <ul>
-        <li>
-          <Link href="/">
-            <Image
+        <li className='menu-btn'>
+          <Link href="/" >
+            {/* <Image
             src={Home}
             className="menu-btn"
             alt="Next.js Logo"
             width={50}
             height={50}
             priority
-          />
+          /> */}
+          Home
           </Link>
         </li>
         <li>
@@ -53,7 +54,7 @@ function NavBar() {
             src={Resume}
             className="menu-btn"
             alt="Next.js Logo"
-            width={70}
+            width={65}
             height={50}
             priority
           />
