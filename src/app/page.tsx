@@ -8,12 +8,6 @@ export default function Home() {
     <main className="flex flex-col items-center">
       <div>
         <Name />
-        {/* <Image
-          src={name}
-          className="name"
-          alt="name"
-          width={500}
-        /> */}
         <Footer />
       </div>
     </main>

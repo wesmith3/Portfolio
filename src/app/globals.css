@@ -30,36 +30,6 @@ body {
   padding-top: 0;
 }
 
-.name {
-  justify-content: center;
-  align-items: center;
-  padding-top: 55%;
-  /* animation: scaleDisappearLoop 12s infinite; */
-}
-
-/* @keyframes scaleDisappearLoop {
-  0% {
-    opacity: 0;
-    transform: scale(0.4);
-  }
-  8.33% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  83.33% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  99.99% { 
-    opacity: 0;
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0.4);
-  }
-} */
-
 .navbar {
   position: fixed;
   top: 2%;
@@ -68,7 +38,6 @@ body {
   background-color: black;
   padding: 10px 20px;
 }
-
 
 .navbar ul {
   list-style: none;
