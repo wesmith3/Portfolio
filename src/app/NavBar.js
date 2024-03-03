@@ -24,52 +24,56 @@ function NavBar() {
           Home
           </Link>
         </li>
-        <li>
+        <li className='menu-btn'>
           <Link href="/about">
-          <Image
+          {/* <Image
             src={About}
             className="menu-btn"
             alt="Next.js Logo"
             width={55}
             height={50}
             priority
-          />
+          /> */}
+          About
           </Link>
         </li>
-        <li>
+        <li className='menu-btn'>
           <Link href="/projects">
-          <Image
+          {/* <Image
             src={Projects}
             className="menu-btn"
             alt="Next.js Logo"
             width={80}
             height={50}
             priority
-          />
+          /> */}
+          Projects
           </Link>
         </li>
-        <li>
+        <li className='menu-btn'>
           <Link href="/resume">
-          <Image
+          {/* <Image
             src={Resume}
             className="menu-btn"
             alt="Next.js Logo"
             width={65}
             height={50}
             priority
-          />
+          /> */}
+          Resume
           </Link>
         </li>
-        <li>
+        <li className='menu-btn'>
           <Link href="/blog">
-          <Image
+          {/* <Image
             src={Blog}
             className="menu-btn"
             alt="Next.js Logo"
             width={50}
             height={50}
             priority
-          />
+          /> */}
+          Blog
           </Link>
         </li>
       </ul>
