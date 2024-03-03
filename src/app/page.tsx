@@ -1,18 +1,20 @@
 import Image from "next/image";
 import name from '../public/Name.jpeg'
+import Footer from "./Footer";
+import Name from "./Name";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <div>
-        <Image
+        <Name />
+        {/* <Image
           src={name}
           className="name"
-          alt="Next.js Logo"
+          alt="name"
           width={500}
-          height={200}
-          priority
-        />
+        /> */}
+        <Footer />
       </div>
     </main>
   );
