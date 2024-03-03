@@ -1,6 +1,6 @@
 .footer {
     position: fixed;
-    bottom: 2%;
+    bottom: 5%;
     right: 0;
     left: 0;
     width: 100%;
@@ -9,6 +9,11 @@
     align-self: center;
   }
   
+  .brand-icons, .footer a {
+    color: #ceaa05;
+    text-decoration: none;
+}
+
   .brand-icons {
     display: flex;
     justify-content: center;

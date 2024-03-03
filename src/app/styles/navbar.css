@@ -30,7 +30,8 @@
   }
 
   .menu-btn, .navbar a {
-    color: #ceaa05; /* Your desired color */
+    color: #ceaa05;
+    text-decoration: none;
 }
   
   .navbar ul {
