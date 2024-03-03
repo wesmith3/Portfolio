@@ -75,8 +75,8 @@ body {
   width: 100%;
   background-color: black;
   padding: 10px 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 
 .navbar ul {
   list-style: none;
@@ -109,4 +109,45 @@ body {
   transition: transform 0.3s ease-in-out;
   text-shadow: -1.5px 0px .05px #570000;
   text-decoration: underline overline;
+}
+
+.footer {
+  position: fixed;
+  bottom: 2%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px 20px;
+  align-self: center;
+}
+
+.brand-icons {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: color 0.3s, transform 0.3s;
+  width: 125px;
+  color: #ceaa05;
+}
+
+.li-icon:not(:last-child),
+.gh-icon:not(:last-child),
+.m-icon:not(:last-child) {
+  margin-right: 15px;
+  align-content: center;
+}
+
+.li-icon:hover {
+  color: #1877F2;
+  transform: scale(1.2);
+}
+.gh-icon:hover {
+  color: white;
+  transform: scale(1.2);
+}
+.m-icon:hover {
+  color: white;
+  transform: scale(1.2);
 }

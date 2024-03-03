@@ -63,19 +63,19 @@ function NavBar() {
           Resume
           </Link>
         </li>
-        <li className='menu-btn'>
+        {/* <li className='menu-btn'>
           <Link href="/blog">
-          {/* <Image
+          <Image
             src={Blog}
             className="menu-btn"
             alt="Next.js Logo"
             width={50}
             height={50}
             priority
-          /> */}
+          />
           Blog
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )
