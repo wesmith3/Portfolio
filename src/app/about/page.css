@@ -1,0 +1,12 @@
+.abt-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15vh;
+    height: 25vh;
+    font-family: 'FHA';
+    color: #ceaa05;
+    font-size: 8vh;
+    text-shadow: -6px 5px .05px #570000;
+    transform: rotate(-5deg);
+}
