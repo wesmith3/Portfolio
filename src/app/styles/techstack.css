@@ -1,0 +1,46 @@
+.tech-stack {
+    position: fixed;
+    font-family: 'FHA';
+    text-align: center; 
+    width: 15vh;
+    color: #ceaa05;
+    text-shadow: -6px 5px .05px #570000;
+    padding-top: 20vh;
+    padding-left: 0;
+    background-color: black;
+  }
+  
+  .tech-title {
+    font-size: small;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+
+  .tech-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    margin-left: 0;
+  }
+  
+  .tech-icons .svg-inline--fa {
+    margin-bottom: 25px;
+  }
+  .js-icon {
+    color: #F7DF1E;
+  }
+  .react-icon {
+    color: #61DAFB;
+  }
+  .python-icon {
+    color: #4B8BBE;
+  }
+  .css-icon {
+    color: #1572B6;
+  }
+  .html-icon {
+    color: #E44D26;
+  }
+  
