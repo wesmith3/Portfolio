@@ -5,7 +5,6 @@
 @font-face {
   font-family: 'FHA';
   src: url('../public/fonts/fha-nicholson-french-ncv-font/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
-  /* You can specify additional attributes like font-weight and font-style here */
 }
 
 :root {
@@ -42,11 +41,11 @@ body {
 .name {
   justify-content: center;
   align-items: center;
-  padding-top: 25%;
+  padding-top: 55%;
   /* animation: scaleDisappearLoop 12s infinite; */
 }
 
-@keyframes scaleDisappearLoop {
+/* @keyframes scaleDisappearLoop {
   0% {
     opacity: 0;
     transform: scale(0.4);
@@ -67,16 +66,16 @@ body {
     opacity: 0;
     transform: scale(0.4);
   }
-}
+} */
 
 .navbar {
   position: fixed;
   top: 2%;
   left: 0;
   width: 100%;
-  background-color: black; /* Change this to your desired background color */
-  padding: 10px 20px; /* Adjust padding as needed */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual */
+  background-color: black;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar ul {
@@ -87,11 +86,11 @@ body {
 
 .navbar ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
 .navbar ul li:last-child {
-  margin-right: 0; /* Remove margin from the last menu item */
+  margin-right: 2.5%;
 }
 
 .menu-btn {
@@ -101,21 +100,13 @@ body {
   text-shadow: -1.5px 0px .05px #570000;
 }
 
-/* Adjust image size
-.menu-btn img {
-  width: 100px;
-  height: 50px;
-} */
-
-/* Align menu items to the right */
 .navbar ul {
   text-align: right;
 }
 
 .menu-btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
   transition: transform 0.3s ease-in-out;
-  color: white;
-  text-shadow: -1.5px 0px .05px grey;
+  text-shadow: -1.5px 0px .05px #570000;
   text-decoration: underline overline;
 }

@@ -9,8 +9,8 @@ export default function Home() {
           src={name}
           className="name"
           alt="Next.js Logo"
-          width={1000}
-          height={500}
+          width={500}
+          height={200}
           priority
         />
       </div>
