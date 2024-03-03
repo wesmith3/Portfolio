@@ -1,0 +1,41 @@
+.footer {
+    position: fixed;
+    bottom: 2%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    align-self: center;
+  }
+  
+  .brand-icons {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: color 0.3s, transform 0.3s;
+    height: 4vh;
+    color: #ceaa05;
+  }
+  
+  .li-icon:not(:last-child),
+  .gh-icon:not(:last-child),
+  .m-icon:not(:last-child) {
+    margin-right: 15px;
+    align-content: center;
+  }
+  
+  .li-icon:hover {
+    color: #1877F2;
+    transform: scale(1.2);
+  }
+  .gh-icon:hover {
+    color: white;
+    transform: scale(1.2);
+  }
+  .m-icon:hover {
+    color: white;
+    transform: scale(1.2);
+  }
+  

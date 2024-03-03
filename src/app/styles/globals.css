@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'FHA';
+  src: url('../../public/fonts/fha-nicholson-french-ncv-font/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+.home_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'FHA';
+  color: #ceaa05;
+  font-size: 6vh;
+  text-shadow: -6px 5px .05px #570000;
+}
+
+.home_center h4 {
+  margin-bottom: 3.5vh;
+  padding-bottom: 0;
+}
+
+.home_center h1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+

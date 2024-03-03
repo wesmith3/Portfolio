@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 2%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 20px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 35px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 2.5%;
+  }
+  
+  .menu-btn {
+    display: block;
+    font-family: FHA;
+    color: #ceaa05;
+    text-shadow: -1.5px 0px .05px #570000;
+  }
+  
+  .navbar ul {
+    text-align: right;
+  }
+  
+  .menu-btn:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+    text-shadow: -1.5px 0px .05px #570000;
+    text-decoration: underline overline;
+  }
