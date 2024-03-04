@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 15vh;
-    height: 25vh;
+    height: 10vh;
     font-family: 'FHA';
     color: #ceaa05;
     font-size: 8vh;
@@ -11,3 +11,14 @@
     transform: rotate(-5deg);
 }
 
+.proj-list {
+    display: flex;
+    justify-content: space-between; /* Adjust this property according to your layout needs */
+  }
+  
+  .proj {
+    width: calc(33.33% - 10px); /* Adjust width as needed with padding/margin */
+    border: 1px solid #ccc; /* Add border styles */
+    padding: 20px; /* Add padding */
+  }
+  

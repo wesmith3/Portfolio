@@ -9,10 +9,10 @@ export default function TechStack() {
       <h1 className="tech-title">Tech Stack</h1>
       <div class="tech-icons" data-tooltip="JavaScript">
         <FontAwesomeIcon icon={faSquareJs} className="js-icon" data-tooltip="JavaScript" />
-        <FontAwesomeIcon icon={faReact} className="react-icon" />
-        <FontAwesomeIcon icon={faPython} className="python-icon" />
-        <FontAwesomeIcon icon={faCss3} className="css-icon" />
-        <FontAwesomeIcon icon={faHtml5} className="html-icon" />
+        <FontAwesomeIcon icon={faReact} className="react-icon" data-tooltip="React JS" />
+        <FontAwesomeIcon icon={faPython} className="python-icon" data-tooltip="Python" />
+        <FontAwesomeIcon icon={faCss3} className="css-icon" data-tooltip="CSS 3" />
+        <FontAwesomeIcon icon={faHtml5} className="html-icon" data-tooltip="HTML 5" />
       </div>
     </div>
   );

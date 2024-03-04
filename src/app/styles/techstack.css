@@ -2,7 +2,7 @@
     position: fixed;
     font-family: 'FHA';
     text-align: center; 
-    width: 15vh;
+    width: 20vh;
     color: #ceaa05;
     text-shadow: -6px 5px .05px #570000;
     padding-top: 20vh;
@@ -28,19 +28,43 @@
   .tech-icons .svg-inline--fa {
     margin-bottom: 25px;
   }
+
   .js-icon {
     color: #F7DF1E;
   }
+  .js-icon:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+  }
+
   .react-icon {
     color: #61DAFB;
   }
+  .react-icon:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+  }
+
   .python-icon {
     color: #4B8BBE;
   }
+  .python-icon:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+  }
+
   .css-icon {
     color: #1572B6;
   }
+  .css-icon:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+  }
+
   .html-icon {
     color: #E44D26;
   }
-  
+  .html-icon:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+  }
