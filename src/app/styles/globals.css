@@ -4,6 +4,11 @@
   src: url('../../public/fonts/fha-nicholson-french-ncv-font/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Daily News';
+  src: url('../../public/fonts/') format('truetype');
+}
+
 body {
   background-color: black;
   overflow: hidden;
