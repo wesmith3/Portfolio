@@ -17,8 +17,7 @@
   .brand-icons {
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     transition: color 0.3s, transform 0.3s;
     height: 4vh;
     color: #ceaa05;

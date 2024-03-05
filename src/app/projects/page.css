@@ -54,3 +54,12 @@
     letter-spacing: .055vh;
     font-size: 4.5vh;
   }
+
+  .gh-icon {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: color 0.3s, transform 0.3s;
+    height: 4vh;
+    color: #ceaa05;
+  }
