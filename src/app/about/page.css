@@ -10,3 +10,14 @@
     text-shadow: -6px 5px .05px #570000;
     transform: rotate(-5deg);
 }
+.paragraph {
+    height: 75vh;
+    font-family: 'FHA';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    line-height: 5vh;
+}
