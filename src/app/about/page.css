@@ -32,10 +32,10 @@
     height: 10vh;
     align-items: center;
     color:whitesmoke;
-    font-family: 'FHA';
+    font-family: 'SF';
     /* font-weight: bolder; */
     font-size: 3.5vh;
-    letter-spacing: 2vh;
+    letter-spacing: .5vh;
   }
   
   .email-icon {
