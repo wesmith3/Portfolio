@@ -26,7 +26,7 @@ export default function Projects() {
         </h1>
         <Link legacyBehavior href="https://github.com/wesmith3">
           <a className="gh-icon" target="_blank">
-            <GitHubIcon />
+            <GitHubIcon fontSize="large"></GitHubIcon>
           </a>
         </Link>
       </div>

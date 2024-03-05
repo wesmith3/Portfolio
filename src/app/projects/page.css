@@ -58,8 +58,8 @@
   .gh-icon {
     display: flex;
     justify-content: center;
+    padding-top: 3.5vh;
     margin: auto;
     transition: color 0.3s, transform 0.3s;
-    height: 4vh;
     color: #ceaa05;
   }
