@@ -10,8 +10,29 @@
     text-shadow: -6px 5px .05px #570000;
     transform: rotate(-5deg);
 }
+.contact {
+  font-family: 'FHA';
+  color: #ceaa05;
+  text-shadow: -6px 5px .05px #570000;
+  padding-top: 2.5vh;
+}
 .paragraph {
-    height: 60vh;
+    padding-top: 7.5vh;
+    font-family: 'SF';
+    font-weight: bolder;
+    font-size: 5.5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    line-height: 6.5vh;
+    letter-spacing: .5vh;
+}
+
+.paragraph-two {
+    padding-top: 5vh;
     font-family: 'SF';
     font-weight: bolder;
     font-size: 5.5vh;
@@ -27,20 +48,18 @@
 
 .email-container {
     display: flex;
-    width: 85%;
+    width: 80%;
     margin: auto;
-    height: 10vh;
     align-items: center;
     color:whitesmoke;
     font-family: 'SF';
-    /* font-weight: bolder; */
     font-size: 3.5vh;
     letter-spacing: .5vh;
   }
   
   .email-icon {
-    margin-right: 2vh;
+    margin-left: 5vh;
+    margin-right: 1.5vh;
     color:#ceaa05;
-    size: 55vh;
   }
   
