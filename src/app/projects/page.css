@@ -45,10 +45,12 @@
   }
 
   .description {
-    font-family: 'Daily News';
+    font-family: 'SF';
     color: white;
     text-align: center;
-    line-height: 5.5vh;
-    font-weight: bolder;
-    font-size: x-large;
+    width: 90%;
+    margin: auto;
+    line-height: 3.5vh;
+    letter-spacing: .055vh;
+    font-size: 4.5vh;
   }
