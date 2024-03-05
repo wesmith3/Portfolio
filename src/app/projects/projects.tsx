@@ -65,8 +65,7 @@ export default function Projects() {
           height={800}
         />
         <h1 className="description">
-          Explore endless music possibilities with our app&apos;s diverse song
-          library. Discover new favorites through randomized song selections,
+          Discover new favorites through randomized song selections,
           where you can listen, add to your playlist, and rate with a simple
           like or dislike—an essential tool for music lovers craving fresh
           beats.
