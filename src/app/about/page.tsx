@@ -16,7 +16,7 @@ export default function About() {
         risus nec turpis eleifend tempor vitae vel lorem.
       </h4>
       <div className="email-container">
-        <EmailIcon className="email-icon"/>
+        <EmailIcon className="email-icon" fontSize="large"/>
         <h4 className="email">wesmith314@gmail.com</h4>
       </div>
     </main>

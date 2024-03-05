@@ -12,7 +12,7 @@
 }
 .paragraph {
     height: 60vh;
-    font-family: 'Daily News';
+    font-family: 'SF';
     font-weight: bolder;
     font-size: 5.5vh;
     color: white;
@@ -21,7 +21,7 @@
     justify-content: center;
     width: 80%;
     margin: auto;
-    line-height: 8.5vh;
+    line-height: 6.5vh;
     letter-spacing: .5vh;
 }
 
@@ -32,16 +32,15 @@
     height: 10vh;
     align-items: center;
     color:whitesmoke;
-    font-family: 'Daily News';
-    font-weight: bolder;
-    font-size: 7.5vh;
-    letter-spacing: 1vh;
+    font-family: 'SF';
+    /* font-weight: bolder; */
+    font-size: 3.5vh;
+    letter-spacing: .5vh;
   }
   
   .email-icon {
     margin-right: 2vh;
     color:#ceaa05;
-    box-shadow: 0 5px 5px #570000;
-    size: 15vh;
+    size: 55vh;
   }
   

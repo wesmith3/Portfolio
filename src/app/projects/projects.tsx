@@ -2,6 +2,8 @@ import Image from "next/image";
 import AA from "./AA.jpeg";
 import FB from "./FB.jpeg";
 import Vignette from "./Vignette.jpeg";
+import Link from "next/link";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Projects() {
   return (
@@ -22,6 +24,11 @@ export default function Projects() {
           creations, explore, engage with, and follow fellow artists works,
           fostering a vibrant online art community.
         </h1>
+        <Link legacyBehavior href="https://github.com/wesmith3">
+          <a className="gh-icon" target="_blank">
+            <GitHubIcon fontSize="large"></GitHubIcon>
+          </a>
+        </Link>
       </div>
       <div className="proj">
         <h2 className="proj-name">Flatbuster Video</h2>

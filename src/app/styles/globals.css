@@ -9,6 +9,11 @@
   src: url('../../public/fonts/PromenadeDeLaCroisetteRegular-8MOOZ.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'SF';
+  src: url('../../public/fonts/SfMoviePoster-2W4w.ttf') format('truetype');
+}
+
 body {
   background-color: black;
   overflow: hidden;
