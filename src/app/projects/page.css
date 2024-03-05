@@ -41,8 +41,10 @@
   }
 
   .description {
-    font-family: 'FHA';
+    font-family: 'Daily News';
     color: white;
     text-align: center;
-    line-height: 3.5vh;
+    line-height: 5.5vh;
+    font-weight: bolder;
+    font-size: x-large;
   }

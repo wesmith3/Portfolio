@@ -11,13 +11,37 @@
     transform: rotate(-5deg);
 }
 .paragraph {
-    height: 75vh;
-    font-family: 'FHA';
+    height: 60vh;
+    font-family: 'Daily News';
+    font-weight: bolder;
+    font-size: 5.5vh;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 80%;
     margin: auto;
-    line-height: 5vh;
+    line-height: 8.5vh;
+    letter-spacing: .5vh;
 }
+
+.email-container {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    color:whitesmoke;
+    font-family: 'Daily News';
+    font-weight: bolder;
+    font-size: 7.5vh;
+    letter-spacing: 1vh;
+  }
+  
+  .email-icon {
+    margin-right: 2vh;
+    color:#ceaa05;
+    box-shadow: 0 5px 5px #570000;
+    size: 15vh;
+  }
+  

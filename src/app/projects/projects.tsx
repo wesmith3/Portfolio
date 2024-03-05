@@ -16,12 +16,12 @@ export default function Projects() {
           width={800}
           height={800}
         />
-        <p className="description">
-          An innovative art gallery social media platform akin to Instagram,
+        <h1 className="description">
+          An innovative art gallery social media platform,
           enabling users to curate their own virtual art galleries, share their
           creations, explore, engage with, and follow fellow artists works,
           fostering a vibrant online art community.
-        </p>
+        </h1>
       </div>
       <div className="proj">
         <h2 className="proj-name">Flatbuster Video</h2>
