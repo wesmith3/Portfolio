@@ -1,19 +1,19 @@
 .tech-stack {
     position: fixed;
-    font-family: 'FHA';
     text-align: center; 
     width: 20vh;
-    color: #ceaa05;
-    text-shadow: -6px 5px .05px #570000;
+    color: whitesmoke;
+    text-shadow: -1px 0px .05px #570000;
     padding-top: 20vh;
     padding-left: 0;
     background-color: black;
   }
   
   .tech-title {
-    font-size: small;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-family: 'Daily News';
+    font-size: 5.5vh;
+    padding-top: 3.5vh;
+    /* padding-bottom: .5vh; */
   }
   
 

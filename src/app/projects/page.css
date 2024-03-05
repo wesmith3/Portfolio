@@ -20,8 +20,31 @@
   
   .proj {
     width: calc(33.33% - 10px);
-    border: 2.5px solid #ceaa05;
     height: 72.5vh;
     margin: 1.5vh;
+    box-shadow: 0 0 5px whitesmoke;
+  }
+
+  .proj:hover {
+    box-shadow: 0 0 55px #570000;
+    transform: scale(1.005);
+    transition: transform 0.3s ease-in-out;
+    border: 2.5px solid #ceaa05;
   }
   
+  .proj-name {
+    font-family: 'FHA';
+    text-align: center;
+    color: #f5f5f5;
+    /* color: #ceaa05; */
+    text-shadow: -1.5px 4px .05px #570000;
+  }
+
+  .description {
+    font-family: 'Daily News';
+    color: white;
+    text-align: center;
+    line-height: 5.5vh;
+    font-weight: bolder;
+    font-size: x-large;
+  }

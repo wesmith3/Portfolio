@@ -24,9 +24,9 @@
   
   .menu-btn {
     display: block;
-    font-family: FHA;
+    font-family: 'FHA';
     color: #ceaa05;
-    text-shadow: -6px 5px .05px #570000;
+    text-shadow: -1.5px 2px .05px #570000;
   }
 
   .menu-btn, .navbar a {

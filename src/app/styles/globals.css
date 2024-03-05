@@ -1,7 +1,12 @@
 
 @font-face {
   font-family: 'FHA';
-  src: url('../../public/fonts/fha-nicholson-french-ncv-font/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
+  src: url('../../public/fonts/FhaNicholsonFrenchNcvNormal-6OEv.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Daily News';
+  src: url('../../public/fonts/PromenadeDeLaCroisetteRegular-8MOOZ.ttf') format('truetype');
 }
 
 body {
