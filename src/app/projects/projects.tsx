@@ -25,7 +25,7 @@ export default function Projects() {
           vibrant online art community.
         </h1>
         <Link legacyBehavior href="https://github.com/wesmith3/Vignette">
-          <a className="gh-icon" target="_blank">
+          <a className="github" target="_blank">
             <GitHubIcon fontSize="large" />
           </a>
         </Link>
@@ -49,7 +49,7 @@ export default function Projects() {
           legacyBehavior
           href="https://github.com/wesmith3/Flatbuster-Video"
         >
-          <a className="gh-icon" target="_blank">
+          <a className="github" target="_blank">
             <GitHubIcon fontSize="large" />
           </a>
         </Link>
@@ -71,7 +71,7 @@ export default function Projects() {
           beats.
         </h1>
         <Link legacyBehavior href="https://github.com/zachtalmadge/audio-abyss">
-          <a className="gh-icon" target="_blank">
+          <a className="github" target="_blank">
             <GitHubIcon fontSize="large" />
           </a>
         </Link>
