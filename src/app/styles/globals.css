@@ -28,7 +28,8 @@ body {
   font-family: 'FHA';
   color: #ceaa05;
   font-size: 6vh;
-  text-shadow: -6px 5px .05px #570000;
+  text-shadow: -6px 5px 0.05px #570000;
+  position: relative;
 }
 
 .home_center h4 {
@@ -39,4 +40,25 @@ body {
 .home_center h1 {
   margin-top: 0;
   padding-top: 0;
+}
+
+/* @media (max-width: 1100px) {
+  .home_center {
+    font-size: 4vh; 
+  }
+} */
+
+/* Media query for mobile devices */
+@media (max-width: 1100px) {
+  .home_center {
+    /* padding: 20px; */
+    font-size: 4vw; /* Adjust the font size as needed */
+  }
+
+  .home_center h4 {
+    margin-bottom: 2rem;
+  }
+  .home_center h1 {
+    margin-bottom: 18rem;
+  }
 }
