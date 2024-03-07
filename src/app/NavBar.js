@@ -9,7 +9,7 @@ function NavBar() {
         <li className='menu-btn'>
           <Link href="/" >
           Home
-          </Link>
+          </Link>t./m
         </li>
         <li className='menu-btn'>
           <Link href="/about">
