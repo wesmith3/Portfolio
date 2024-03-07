@@ -47,7 +47,7 @@
 @media (max-width: 767px) {
   .footer {
     position:fixed;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
     /* padding: 20px;
     font-size: 4vw; Adjust the font size as needed */
   }
@@ -55,7 +55,7 @@
 @media (max-width: 1100px) {
   .footer {
     position:fixed;
-    padding-bottom: 30rem;
+    padding-bottom: 25rem;
     /* padding: 20px; */
     font-size: 4vw;
   }
