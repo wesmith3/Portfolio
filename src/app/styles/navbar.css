@@ -71,15 +71,11 @@
   .mobile-menu {
     display: none;
     font-family: 'FHA';
-    text-align: center;
-    margin: auto;
     top: 100vh;
     left: 0;
     width: 100%;
-    height: 25vh;
+    height: 12.5rem;
     background-color: #000;
-    color: #ceaa05;
-    text-shadow: -1.5px 2px .05px #570000;
     overflow-y: auto;
     z-index: 999;
   }
@@ -92,15 +88,16 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    padding-left: 1rem;
   }
   
   .mobile-menu li {
-    padding: 1rem;
+    padding: .75rem;
   }
   
   .mobile-menu a {
-    color: #ceaa05; /* Adjust the color to match your theme */
+    color: #ceaa05;
+    text-shadow: -1.5px 2px .05px #570000;
     text-decoration: none;
     font-size: 1.2rem; /* Increase the font size for better visibility */
   }
