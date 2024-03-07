@@ -52,7 +52,8 @@ body {
 @media (max-width: 1100px) {
   .home_center {
     /* padding: 20px; */
-    font-size: 4vw; /* Adjust the font size as needed */
+    font-size: 4vw;
+    text-shadow: -1.5px 2px 0.05px #570000;
   }
 
   .home_center h4 {

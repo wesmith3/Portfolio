@@ -93,7 +93,7 @@
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .tech-stack {
-    bottom: 5rem;
+    bottom: 12.5rem;
     position:fixed;
     width: 100%;
     margin:auto;
