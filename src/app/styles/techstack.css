@@ -1,70 +1,117 @@
 .tech-stack {
-    position: fixed;
-    text-align: center; 
-    width: 20vh;
-    color: whitesmoke;
-    text-shadow: -1px 0px .05px #570000;
-    padding-top: 20vh;
-    padding-left: 0;
-    background-color: black;
+  position: fixed;
+  text-align: center;
+  width: 20vh;
+  color: whitesmoke;
+  text-shadow: -1px 0px 0.05px #570000;
+  padding-top: 20vh;
+  padding-left: 0;
+}
+
+.tech-title {
+  font-family: 'SF';
+  font-size: 5.5vh;
+  padding-top: 3.5vh;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  margin-left: 0;
+}
+
+.tech-icons .svg-inline--fa {
+  margin-bottom: 25px;
+}
+
+.js-icon {
+  color: #f7df1e;
+}
+.js-icon:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+.react-icon:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.python-icon {
+  color: #4b8bbe;
+}
+.python-icon:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.css-icon {
+  color: #1572b6;
+}
+.css-icon:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.html-icon {
+  color: #e44d26;
+}
+.html-icon:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 1100px) {
+  .tech-stack {
+    bottom: 5rem;
+    position:fixed;
+    width: 80%;
+    margin-left: 10%;
   }
-  
   .tech-title {
-    font-family: 'SF';
-    font-size: 5.5vh;
-    padding-top: 3.5vh;
-    /* padding-bottom: .5vh; */
+    font-size: 3.5rem;
+    padding-top: 0;
+    margin-bottom: 4.5rem;
   }
-  
+  .tech-icons {
+    flex-direction: row;
+    justify-content: center;
+    height: .5rem;
+    width: 80%;
+    margin:auto;
+  }
+  .tech-icons .svg-inline--fa {
+    margin: 2.5rem;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .tech-stack {
+    bottom: 5rem;
+    position:fixed;
+    width: 100%;
+    margin:auto;
+  }
+
+  .tech-title {
+    font-size: 3.5rem;
+    padding-top: 0;
+    margin-bottom: 3.5rem;
+  }
 
   .tech-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 40vh;
-    margin-left: 0;
+    flex-direction: row;
+    justify-content: center;
+    height: .5rem;
   }
   
   .tech-icons .svg-inline--fa {
-    margin-bottom: 25px;
+    margin: 1.5rem;
   }
-
-  .js-icon {
-    color: #F7DF1E;
-  }
-  .js-icon:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .react-icon {
-    color: #61DAFB;
-  }
-  .react-icon:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .python-icon {
-    color: #4B8BBE;
-  }
-  .python-icon:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .css-icon {
-    color: #1572B6;
-  }
-  .css-icon:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .html-icon {
-    color: #E44D26;
-  }
-  .html-icon:hover {
-    transform: scale(1.15);
-    transition: transform 0.3s ease-in-out;
-  }
+}
