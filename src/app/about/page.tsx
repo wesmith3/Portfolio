@@ -22,8 +22,8 @@ export default function About() {
         or creative arts, I&apos;m always up for connecting and exploring new
         opportunities together. Let&apos;s make something awesome!
       </h4>
-      <div className="email-container">
       <h2 className="contact">Contact</h2>
+      <div className="email-container">
         <EmailIcon className="email-icon" fontSize="medium" />
         <h4 className="email">wesmith314@gmail.com</h4>
       </div>
