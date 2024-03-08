@@ -68,3 +68,9 @@ body {
     margin-bottom: 18rem;
   }
 }
+
+@media (max-width: 780px) {
+  .home_center {
+    height: 45rem;
+  }
+}

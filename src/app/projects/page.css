@@ -1,67 +1,97 @@
 .proj-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 7.5vh;
-    height: 2.5vh;
-    font-family: 'FHA';
-    color: #ceaa05;
-    font-size: 8vh;
-    text-shadow: -6px 5px .05px #570000;
-    transform: rotate(-5deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7.5vh;
+  height: 2.5vh;
+  font-family: 'FHA';
+  color: #ceaa05;
+  font-size: 8vh;
+  text-shadow: -6px 5px .05px #570000;
+  transform: rotate(-5deg);
 }
 
 .proj-list {
-    display: flex;
-    width: 95%;
-    margin: auto;
-    padding-top: 7.5vh;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  padding-top: 7.5vh;
+  flex-wrap: wrap; /* Add this line to allow wrapping on smaller screens */
+}
+
+.proj {
+  width: calc(33.33% - 10px);
+  height: 72.5vh;
+  margin: 1.5vh;
+  box-shadow: 0 0 5px whitesmoke;
+}
+
+.proj:hover {
+  box-shadow: 0 0 55px #570000;
+  transform: scale(1.005);
+  transition: transform 0.3s ease-in-out;
+  border: 2.5px solid #ceaa05;
+}
+
+.proj-name {
+  font-family: 'SF';
+  font-size: 10vh;
+  letter-spacing: .75vh;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  text-align: center;
+  color: #f5f5f5;
+  text-shadow: -1.5px 4px .05px #570000;
+}
+
+.description {
+  font-family: 'SF';
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 1vh;
+  line-height: 3.5vh;
+  letter-spacing: .055vh;
+  font-size: 4.5vh;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  transition: color 0.3s, transform 0.3s;
+  color: #ceaa05;
+}
+
+/* Media queries for tablets */
+@media (max-width: 1100px) {
+  .proj-title {
+    padding-top: 5.5rem;
+    margin-bottom: 0;
+    font-size: 5vh;
+    transform: rotate(0);
+    text-align: center;
+    text-shadow: -3px 2px 0.05px #570000;
   }
-  
   .proj {
-    width: calc(33.33% - 10px);
-    height: 72.5vh;
-    margin: 1.5vh;
-    box-shadow: 0 0 5px whitesmoke;
+      width: 100%;
   }
+}
 
-  .proj:hover {
-    box-shadow: 0 0 55px #570000;
-    transform: scale(1.005);
-    transition: transform 0.3s ease-in-out;
-    border: 2.5px solid #ceaa05;
+/* Media queries for phones */
+@media (max-width: 780px) {
+    .proj-title {
+      padding-top: 5.5rem;
+      margin-bottom: 0;
+      font-size: 5vh;
+      transform: rotate(0);
+      width: 80%;
+      margin: auto;  
+    }
+  .proj {
+      width: 100%;
   }
-  
-  .proj-name {
-    font-family: 'SF';
-    font-size: 10vh;
-    letter-spacing: .75vh;
-    margin-bottom: 5%;
-    margin-top: 2%;
-    text-align: center;
-    color: #f5f5f5;
-    /* color: #ceaa05; */
-    text-shadow: -1.5px 4px .05px #570000;
-  }
-
-  .description {
-    font-family: 'SF';
-    color: white;
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    padding-top: 1vh;
-    line-height: 3.5vh;
-    letter-spacing: .055vh;
-    font-size: 4.5vh;
-  }
-
-  .github {
-    display: flex;
-    justify-content: center;
-    padding-top: 3.5vh;
-    margin-left: auto;
-    margin-right: auto;
-    transition: color 0.3s, transform 0.3s;
-    color: #ceaa05;
-  }
+}
