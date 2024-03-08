@@ -110,3 +110,14 @@
     margin-top: 0;
   }
 }
+
+@media (max-width: 780px) {
+  .abt-title {
+    padding-top: 5.5rem;
+    margin-bottom: 0;
+    font-size: 5vh;
+    transform: rotate(0);
+    width: 80%;
+    margin: auto;  
+  }
+}
