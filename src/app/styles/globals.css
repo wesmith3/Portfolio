@@ -69,7 +69,7 @@ body {
   }
 }
 
-@media (max-width: 7800px) {
+@media (max-width: 780px) {
   .home_center {
     height: 45rem;
   }
