@@ -68,3 +68,23 @@ body {
     margin-bottom: 18rem;
   }
 }
+
+@media (max-width: 7800px) {
+  body {
+    background-color: black;
+    overflow:visible;
+  }
+
+  .home_center {
+    height: 45rem;
+    font-size: 4vw;
+    text-shadow: -1.5px 2px 0.05px #570000;
+  }
+
+  .home_center h4 {
+    margin-bottom: 2rem;
+  }
+  .home_center h1 {
+    margin-bottom: 18rem;
+  }
+}
