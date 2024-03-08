@@ -68,6 +68,11 @@
 
 /* Media queries for tablets */
 @media (max-width: 992px) {
+  .proj-title {
+    padding-top: 7.5rem;
+    font-size: 5vh;
+
+  }
   .proj {
       width: calc(50% - 10px);
   }
