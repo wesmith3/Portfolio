@@ -73,9 +73,10 @@
     margin-bottom: 0;
     font-size: 5vh;
     transform: rotate(0);
+    text-align: center;
   }
   .proj {
-      width: calc(50% - 10px);
+      width: 100%;
   }
 }
 
