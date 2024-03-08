@@ -69,9 +69,10 @@
 /* Media queries for tablets */
 @media (max-width: 992px) {
   .proj-title {
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
+    margin-bottom: 0;
     font-size: 5vh;
-
+    transform: rotate(0);
   }
   .proj {
       width: calc(50% - 10px);
