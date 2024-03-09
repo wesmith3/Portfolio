@@ -199,8 +199,14 @@ export default function Projects() {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+          <Link
+          legacyBehavior
+          href="https://github.com/wesmith3/Flatbuster-Video"
+          >
+          <a className="github" target="_blank">
+            <GitHubIcon fontSize="large" />
+          </a>
+        </Link>
           </CardActions>
         </Card>
 
