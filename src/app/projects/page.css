@@ -11,6 +11,12 @@
   transform: rotate(-5deg);
 }
 
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .proj-list {
   display: flex;
   width: 95%;
@@ -20,10 +26,12 @@
 }
 
 .proj {
-  width: calc(33.33% - 10px);
-  height: 72.5vh;
-  margin: 1.5vh;
+  /* width: calc(33.33% - 10px); */
+  /* height: 72.5vh; */
+  /* margin: 1.5vh; */
   box-shadow: 0 0 5px whitesmoke;
+  background-color: black;
+  color: white;
 }
 
 .proj:hover {
@@ -34,13 +42,10 @@
 }
 
 .proj-name {
-  font-family: 'SF';
-  font-size: 10vh;
-  letter-spacing: .75vh;
-  margin-bottom: 5%;
-  margin-top: 2%;
+  font-family: 'FHA';
+  font-size: 5vh;
   text-align: center;
-  color: #f5f5f5;
+  color: #ceaa05;
   text-shadow: -1.5px 4px .05px #570000;
 }
 
