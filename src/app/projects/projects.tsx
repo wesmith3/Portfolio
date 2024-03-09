@@ -223,10 +223,8 @@ export default function Projects() {
           </CardMedia>
           <CardContent>
             <Typography variant="body2" color="white">
-              An innovative art gallery social media platform, enabling users to
-              curate their own virtual art galleries, share their creations,
-              explore, engage with, and follow fellow artists works, fostering a
-              vibrant online art community.
+            Step into the virtual aisles of our Blockbuster-inspired website,
+           where you can register, peruse an extensive movie selection,rent/return your favorites, share your thoughts through reviews.
             </Typography>
           </CardContent>
           <CardActions>
