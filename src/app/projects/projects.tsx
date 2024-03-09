@@ -252,10 +252,10 @@ export default function Projects() {
           </CardMedia>
           <CardContent>
             <Typography variant="body2" color="white">
-              An innovative art gallery social media platform, enabling users to
-              curate their own virtual art galleries, share their creations,
-              explore, engage with, and follow fellow artists works, fostering a
-              vibrant online art community.
+            Discover new favorites through randomized song selections,
+             where you can listen, add to your playlist, and rate with a simple
+             like or dislike—an essential tool for music lovers craving fresh
+             beats.
             </Typography>
           </CardContent>
           <CardActions>
